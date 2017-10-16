@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- errors -->
+    <string name="crash_toast_text">Crash</string>
+    <string name="it_is_error">Something wrong</string>
+    <string name="error_network_is_unavailable">Network is unavailable</string>
+    <string name="error_bad_request">Problems with the server or the Internet. Please try again later.</string>
+    <!-- /errors -->
+
+    <!-- toolbar titles -->
+    <string name="home_screen">Java Mvp</string>
+    <string name="details_screen">Details</string>
+    <!-- /toolbar titles -->
+
+    <!-- menus -->
+    <string name="search_menu">Search</string>
+    <!-- /menus -->
+
+    <string name="hint_username">Enter user login</string>
+    <string name="no_data">No data</string>
+
+</resources>

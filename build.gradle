@@ -1,0 +1,59 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath "io.realm:realm-gradle-plugin:3.7.2"
+    }
+}
+
+plugins {
+    id "me.tatarka.retrolambda" version "3.4.0"
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.2'
+    minSdkVersion = 17
+    targetSdkVersion = 25
+
+    // Supports
+    supportLibraryVersion = '25.2.0'
+    constraintLayoutVersion = '1.0.2'
+
+    // Reactive programming
+    rxJava2Version = '2.0.1'
+    rxBindingVersion = '1.0.0'
+
+    // Dependency injection
+    daggerVersion = '2.11'
+    glassfishVersion = '10.0-b28'
+
+    // Net
+    retrofit2Version = '2.1.0'
+    okhttp3Version = '3.6.0'
+    gsonVersion = '2.8.0'
+    retrofitRxAdapterVersion = '1.0.0'
+
+    // Others
+    eventbusVersion = '3.0.0'
+    multidexVersion = '1.0.1'
+    acraVersion = '4.9.0'
+    picassoVersion = '2.5.2'
+
+}

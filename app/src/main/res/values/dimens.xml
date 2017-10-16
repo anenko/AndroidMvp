@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Generic dimensions -->
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="space_zero">0dp</dimen>
+    <dimen name="space_half">4dp</dimen>
+    <dimen name="space">8dp</dimen>
+    <dimen name="space_x2">16dp</dimen>
+    <dimen name="space_x3">24dp</dimen>
+    <dimen name="space_x4">32dp</dimen>
+
+    <dimen name="text_8">8sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_32">32sp</dimen>
+    <!-- /Generic dimensions -->
+
+    <!-- Functional dimensions -->
+    <dimen name="card_corner_radius">@dimen/space_half</dimen>
+    <dimen name="elevation">@dimen/space_half</dimen>
+    <dimen name="line_size">@dimen/dp1</dimen>
+    <!-- /Functional dimensions -->
+
+    <dimen name="word_card_padding">40dp</dimen>
+    <dimen name="home_card_height">250dp</dimen>
+    <dimen name="image_swipe_margin_bottom">12dp</dimen>
+    <dimen name="home_words_card_width">144dp</dimen>
+    <dimen name="home_words_card_height">160dp</dimen>
+    <dimen name="home_settings_card_height">240dp</dimen>
+    <dimen name="avatar_size">64dp</dimen>
+
+</resources>

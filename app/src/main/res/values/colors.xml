@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryDark">#2980b9</color>
+    <color name="colorAccent">#336E7B</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="greyLight">#E0E0E0</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="greyDark">#616161</color>
+
+    <color name="bgPanel">#269E9E9E</color>
+
+</resources>
